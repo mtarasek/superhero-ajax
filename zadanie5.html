@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HERO</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script src="./main.js"></script>
+
+</head>
+
+<body>
+    <form id="form">
+        <h3>Formularz dodawania nowych bohaterów</h3>
+        <label>Superhero: </label><input type="text" id="superhero" /><br />
+        <label>Publisher:</label><input type="text" id="publisher" /><br />
+        <label>Characters:</label><input type="text" id="characters" /><br />
+        <label>Description:</label><input type="text" id="description" /><br />
+        <label>First Appearance:</label> <input type="text" id="firstAppearance" /><br />
+        <button type="button" id="addNewHero">Add</button>
+
+    </form>
+    <section>
+        <h3>LISTA Z BOHATERAMI:</h3>
+        <ul id="superHeroes"> </ul>
+    </section>
+
+
+    <section id="details">
+        <div>
+            <label>Superhero:</label>
+            <span id="heroName"></span>
+        </div>
+
+        <div>
+            <label>Publisher:</label>
+            <span id="heroPublisher"></span>
+        </div>
+
+        <div>
+            <label>Characters:</label>
+            <span id="heroCharacters"></span>
+        </div>
+
+        <div>
+            <label>Description:</label>
+            <span id="heroDescription"></span>
+        </div>
+
+        <div>
+            <label>Photo:</label>
+            <img id="heroPhoto" />
+        </div>
+
+        <div>
+            <label>FirstAppearance:</label>
+            <span id="heroFirstAppearance"></span>
+        </div>
+
+        <div>
+            <label>ID:</label>
+            <span id="heroId"></span>
+        </div>
+
+    </section>
+</body>
+
+</html>
